@@ -2,6 +2,7 @@ class Person(name)
 
   def initialize(name)
     @name = name
+  end
 
   def name=(name)
     @name = name
@@ -10,5 +11,5 @@ class Person(name)
   def name
     @name
   end
-  
+
 end
